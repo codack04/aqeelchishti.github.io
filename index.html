@@ -1253,10 +1253,53 @@
                         <div class="row">
                             <div class="col-md-2">
                                 <div class="footer-title fl-wrap">
-                                    <span>Aqeel Chishti</span>
+                                    <!--<span>Aqeel Chishti</span>-->
                                 </div>
                             </div>
                             <div class="col-md-5">
+                                <div id="contact-form">
+                                            <div id="message"></div>
+                                            <form class="custom-form" action="php/contact.php" name="contactform" id="contactform" />
+                                                <fieldset>
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <label><i class="fal fa-user"></i></label>
+                                                            <input type="text" name="name" id="name" placeholder="Your Name *" value="" />
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <label><i class="fal fa-envelope"></i> </label>
+                                                            <input type="text" name="email" id="email" placeholder="Email Address *" value="" />
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <label><i class="fal fa-mobile-android"></i> </label>
+                                                            <input type="text" name="phone" id="phone" placeholder="Phone *" value="" />
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <select name="subject" id="subject" data-placeholder="Subject" class="chosen-select sel-dec">
+                                                                <option />Subject
+                                                                <option value="Order Project" />Order Project
+                                                                <option value="Support" />Support
+                                                                <option value="Other Question" />Other Question
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <textarea name="comments" id="comments" cols="40" rows="3" placeholder="Your Message:"></textarea>
+                                                    <div class="verify-wrap">
+                                                        <span class="verify-text"> How many gnomes were in the story about the "Snow-white" ?</span> 
+                                                        <select name="verify" id="verify" data-placeholder="0" class="chosen-select">
+                                                            <option />0
+                                                            <option value="9" />9
+                                                            <option value="5" />5
+                                                            <option value="7" />7
+                                                            <option value="2" />2
+                                                        </select>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                    <button class="btn float-btn flat-btn color-btn" id="submit">Send Message</button>
+                                                </fieldset>
+                                            </form>
+                                        </div>
+                                        <!-- contact form  end-->
                                 <!--<div class="footer-header fl-wrap"><span>01.</span>Last Twitts</div>-->
                                 <!--<div class="footer-box fl-wrap">
                                     <div class="twitter-swiper-container fl-wrap" id="twitts-container"></div>
