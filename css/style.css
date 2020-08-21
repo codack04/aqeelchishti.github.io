@@ -373,9 +373,9 @@ blockquote p {
 .header-social:before {
 	content: '';
 	position: absolute;
-	top: -385px;
-	width: 1px;
-	height: 365px;
+	top: -360px;
+	width: 2px;
+	height: 342px;
 	left: 49%;
 	background: rgba(255, 255, 255, 0.41);
 }
